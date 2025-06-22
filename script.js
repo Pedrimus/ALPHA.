@@ -14,4 +14,8 @@ function toggleMode() {
   img.setAttribute('src', 'assets/avatar.png')
  }
 
+ if(html.classList.contains('light')) {
+    img.setAttribute('alt', 'Foto de Pedro Dias, com a mão direita escorada no rosto barbado, sorrindo de óculos escuros, atrás um fundo artistico de plantas verdes e roxas.')
+ }
+
 }
